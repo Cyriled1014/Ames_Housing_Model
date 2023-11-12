@@ -13,7 +13,7 @@ The data was obtained from the Kaggle Competition: https://www.kaggle.com/compet
 
 However, the model used only 18 features: YearBuilt, Bldg_Age, OverallQual, TotalBsmtSF, 1stFlrSF, 2ndFlrSF, GrLivArea, GarageArea, TotalSF, PoolArea, TotalFullBaths, Neighborhood, BldgType, HouseStyle, Foundation, Electrical, Heating, and GarageType. Of these, 3 were engineered specifically: TotalSF, TotalFullBaths, and Bldg_Age.
 
-It was noted that the SalePrice has a skewness of 1.9; thus, it was normalized for training the model. In the preprocessing of the data, for numerical features, a simple imputer with the mean as the strategy and a standard scaler were used. On the other hand, for categorical features, a simple imputer with a constant as the strategy and One-Hot Encoder were used.
+It was noted that the SalePrice has a skewness of 1.9; thus, it was normalized for training the model. In the preprocessing of the data, for numerical features, a simple imputer with the mean as the strategy and a standard scaler was used. On the other hand, for categorical features, a simple imputer with a constant as the strategy and One-Hot Encoder were used.
 
 ## Streamlit App: https://ameshousingmodel-akwb7ogsrujq9zanisrzus.streamlit.app/
  
