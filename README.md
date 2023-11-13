@@ -1,7 +1,7 @@
 # Title: Ames Housing Prediction Streamlit App
 
 ## Project Description:
-This project involves creating a Streamlit app for predicting Ames housing prices. The dataset contains relevant information on residential properties sold in Ames, Iowa, between 2006 and 2010. It was extracted from the Ames Assessor’s Office and compiled by De Cock (1).
+This project involves creating a Streamlit app for predicting Ames housing prices. The dataset contains relevant information on residential properties sold in Ames, Iowa, between 2006 and 2010. It was extracted from the Ames Assessor’s Office and compiled by De Cock, D (1).
 
 ## Objectives:
 * To conduct an exploratory data analysis on the dataset.
