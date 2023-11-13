@@ -28,3 +28,5 @@ The metric employed in this model was the Root Mean Squared Error (RMSE). The ba
 For the application, the optimal model was saved using joblib. Subsequently, a Streamlit web application was created. Users can input values and select feature categories, and the application will display the predicted price of the residential property. The web application also presents relevant data visualizations explaining the choice of features.
 ## Streamlit Web App: https://ameshousingmodel-akwb7ogsrujq9zanisrzus.streamlit.app/
  
+## Reference: 
+(1) De Cock, D. (2011). Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project. Journal of Statistics Education, 19(3). https://doi.org/10.1080/10691898.2011.11889627
