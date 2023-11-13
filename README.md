@@ -15,5 +15,16 @@ However, the model used only 18 features: YearBuilt, Bldg_Age, OverallQual, Tota
 
 It was noted that the SalePrice has a skewness of 1.9; thus, it was normalized for training the model. In the preprocessing of the data, for numerical features, a simple imputer with the mean as the strategy and a standard scaler was used. On the other hand, for categorical features, a simple imputer with a constant as the strategy and One-Hot Encoder were used.
 
-## Streamlit App: https://ameshousingmodel-akwb7ogsrujq9zanisrzus.streamlit.app/
+## Model:
+
+To train the model, we initially implemented a base default linear regression model. Subsequently, in the remaining stages of the training development, we employed the XGBRegressor algorithm. The base XGBRegressor was utilized with default parameters, and to optimize the model, a Hyperparameter Tuning process was conducted. The best parameters for the XGBRegressor were determined to be a learning rate of 0.1, a maximum depth of 3, and the number of estimators set to 200.
+
+## Results:
+
+The metric employed in this model was the Root Mean Squared Error (RMSE). The base linear model yielded an RMSE of 910836531.641, while the base XGBRegressor exhibited an RMSE of 0.153. The optimized XGBRegressor model achieved an improved RMSE of 0.152. Consequently, this optimized model was used in the final predictions using the test dataset. The predictions were submitted to Kaggle, resulting in a score of 0.153.
+
+## Application:
+
+For the application, the optimal model was saved using joblib. Subsequently, a Streamlit web application was created. Users can input values and select feature categories, and the application will display the predicted price of the residential property. The web application also presents relevant data visualizations explaining the choice of features
+## Streamlit Web App: https://ameshousingmodel-akwb7ogsrujq9zanisrzus.streamlit.app/
  
