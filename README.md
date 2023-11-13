@@ -25,6 +25,6 @@ The metric employed in this model was the Root Mean Squared Error (RMSE). The ba
 
 ## Application:
 
-For the application, the optimal model was saved using joblib. Subsequently, a Streamlit web application was created. Users can input values and select feature categories, and the application will display the predicted price of the residential property. The web application also presents relevant data visualizations explaining the choice of features
+For the application, the optimal model was saved using joblib. Subsequently, a Streamlit web application was created. Users can input values and select feature categories, and the application will display the predicted price of the residential property. The web application also presents relevant data visualizations explaining the choice of features.
 ## Streamlit Web App: https://ameshousingmodel-akwb7ogsrujq9zanisrzus.streamlit.app/
  
