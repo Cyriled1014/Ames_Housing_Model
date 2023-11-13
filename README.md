@@ -5,7 +5,7 @@ This project involves creating a Streamlit app for predicting Ames housing price
 
 ## Objectives:
 * To conduct an exploratory data analysis on the dataset.
-* To create a model with a minimal set of features (less than 20)
+* To create a model with a minimal set of features (less than 20).
 * To develop a Streamlit web application that integrates the best-trained model and provides a visually compelling presentation of the data analysis.
 
 ## Data: 
